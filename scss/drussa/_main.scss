@@ -7,8 +7,9 @@ main{
         color: orange;
     }
     .gallery-container{
+        
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 2fr);
         grid-auto-rows: 100%;
         padding: 10px;
         grid-gap: 10px;

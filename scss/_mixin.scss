@@ -1,0 +1,16 @@
+@mixin texto-color {
+    color: red;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+@mixin button-gallery {
+    background-color: orange;
+    color: gray;
+    border: 3px solid white;
+    border-radius: 15px;
+    padding: 2px;
+    
+}

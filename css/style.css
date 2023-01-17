@@ -5,10 +5,11 @@
   box-sizing: border-box; }
 
 main h1 {
+  color: red;
+  font-size: 2rem;
   display: flex;
   justify-content: center;
-  text-align: center;
-  color: orange; }
+  padding: 10px; }
 
 main .gallery-container {
   display: grid;
@@ -31,10 +32,17 @@ main .gallery__hombre {
   height: 100%;
   object-fit: cover; }
 
+main button {
+  background-color: orange;
+  color: gray;
+  border: 3px solid white;
+  border-radius: 15px;
+  padding: 2px; }
+
 footer {
   background-color: #ea6805; }
   footer p {
-    color: #100f0f; }
+    color: black; }
 
 @media screen and (min-width: 576px) {
   #navegador {

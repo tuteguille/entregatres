@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  height: auto;
   box-sizing: border-box; }
 
 main h1 {
@@ -14,7 +13,7 @@ main h1 {
 
 main .gallery-container {
   display: grid;
-  grid-template-columns: repeat(3, 2fr);
+  grid-template-columns: repeat(4, 2fr);
   grid-auto-rows: 100%;
   padding: 10px;
   grid-gap: 10px; }
@@ -25,6 +24,7 @@ main .gallery__mujer {
   object-fit: cover; }
 
 main .gallery__1 {
+  margin: 10px;
   padding: 40px; }
 
 main .gallery__hombre {
@@ -53,14 +53,14 @@ footer {
     background-color: red; }
   .fotohm {
     display: none; }
-  .gallery-container {
+  main .gallery-container {
     grid-template-columns: repeat(2, 4fr);
-    grid-auto-rows: 60%; }
-  .gallery__hombre {
+    grid-auto-rows: 50%; }
+  main .gallery__hombre {
     width: 100%;
     height: 100%;
     object-fit: cover; }
-  .gallery__mujer {
+  main .gallery__mujer {
     width: 100%;
     height: 100%;
     object-fit: cover; } }

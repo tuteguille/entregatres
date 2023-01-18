@@ -6,7 +6,7 @@ main{
     .gallery-container{
         
         display: grid;
-        grid-template-columns: repeat(3, 2fr);
+        grid-template-columns: repeat(4, 2fr);
         grid-auto-rows: 100%;
         padding: 10px;
         grid-gap: 10px;
@@ -17,9 +17,10 @@ main{
         object-fit: cover;
     }
     .gallery__1{
-        
-        padding: 40px;
-    
+      
+            margin: 10px;
+            padding: 40px;
+       
     }
     
     .gallery__hombre{
